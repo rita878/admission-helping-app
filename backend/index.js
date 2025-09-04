@@ -13,6 +13,12 @@ const MONGODB_URI = process.env.MONGODB_URI;
 app.use(express.json());
 app.use(cors({ origin: "*" }));
 
+// Test route
+app.get("/", (req, res) => {
+  res.send("✅ Server is running...");
+});
+
+
 
     
 
