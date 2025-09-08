@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Right Step",
+    "slug": "app-dev",
+    "scheme": "right-step",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "googleServicesFile": "./google-services.json",
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "android": {
+      "package": "com.rightstep.admission",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a57408b3-00ec-460a-8495-f8df33d5d016"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
