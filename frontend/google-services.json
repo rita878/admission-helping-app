@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213648622483",
+    "project_id": "admission-9b74e",
+    "storage_bucket": "admission-9b74e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213648622483:android:c66f4c6b2025f0c0b45e66",
+        "android_client_info": {
+          "package_name": "com.rightstep.admission"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChU43Jh5FUmPH1ePugVSopld64lEk5V7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
